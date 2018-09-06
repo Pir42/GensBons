@@ -1,0 +1,110 @@
+body {
+    overflow-x: hidden;
+    background-color: white;
+}
+.header {
+    height: 100vh;
+    background-color: #1f1f1f;
+}
+.logoBox {
+    width: 100%;
+}
+#logo {
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding: 9em 0 3em 0;
+    animation: scale 1s 1;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #ffb199;
+    font-family: 'Futura PT';
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5em;
+    animation: letter 2s 1;
+}
+#gens {
+    color: #ff0844;
+}
+.profilBox {
+    text-align: center;
+    height: 25em;
+    background-image: url(./img/Nicolas.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    transition: filter .3s ease;
+
+}
+.profilBox:hover {
+    filter: grayscale(0%);
+    transition: filter .3s ease;   
+}
+.two {
+    background-image: url(./img/Rachel.jpg);
+}
+.three {
+    background-image: url(./img/Valentin.jpg);
+}
+.four {
+    background-image: url(./img/Tom.jpg);
+}
+.five {
+    background-image: url(./img/Tracy.jpg);
+}
+.six {
+    background-image: url(./img/Serge.jpg);
+}
+.seven {
+    background-image: url(./img/Valentin2.jpg);
+}
+.eight {
+    background-image: url(./img/Steven.jpg);
+}
+.nine {
+    background-image: url(./img/Pierre.jpg);
+}
+.profilBox a {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Futura PT';
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    transition: letter-spacing .2s ease;
+    transform-origin: center;
+}
+.profilBox:hover a {
+    letter-spacing: .2em;
+    transition: letter-spacing .3s ease;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    } 
+
+}
+@keyframes letter {
+    0% {
+        letter-spacing: 1.5em;
+        opacity: 0;
+    }
+    100% {
+        letter-spacing: .5em;
+        opacity: 1;
+    }
+}
