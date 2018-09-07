@@ -32,7 +32,8 @@ body {
     font-family: 'Futura PT';
     font-weight: 300;
     font-style: italic;
-    font-size: 1.2em;    
+    font-size: 1.2em;
+
 }
 .text h3 {
     animation: textIn 1.1s 1;
@@ -40,6 +41,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 1.5em;
+    width: 70%;
 }
 #bio {
     animation: textIn 1.2s 1;
@@ -87,8 +89,8 @@ a {
     font-weight: 300;
     font-style: italic;
     font-size: 1.2em;
-    color: white; 
-    transition: letter-spacing .3s ease; 
+    color: white;
+    transition: letter-spacing .3s ease;
 }
 .contain a {
     color: white;
