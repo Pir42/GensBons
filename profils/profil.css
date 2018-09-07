@@ -16,6 +16,7 @@ body {
 .text {
     color: white;
     margin-left: 3em;
+    padding-bottom: 5em;
 }
 .text p, h3 {
     margin: 1.5em 0;
